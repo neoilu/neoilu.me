@@ -5,9 +5,9 @@ const Games: Component = () => {
   return (
   <>
   <p>ну тут игры будут</p>
-  <nav class={styles.nav}>
+  <nav>
     <a href="/">Home</a>
-    <a href="/Games">Games</a>
+    <a href="/Games">ИГРЫ</a>
    </nav>
   </>
   );

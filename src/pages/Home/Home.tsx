@@ -6,9 +6,9 @@ const Home: Component = () => {
   <>
    <h1>SOSINO</h1>
    <p>для леши</p>
-   <nav class={styles.nav}>
+   <nav>
     <a href="/">Home</a>
-    <a href="/Games">Games</a>
+    <a href="/Games">ИГРЫ</a>
    </nav>
   </>
   );
