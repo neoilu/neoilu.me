@@ -1,7 +1,7 @@
 import type { Component } from 'solid-js';
-import styles from './App.module.css';
+import styles from './Home.module.css';
 
-const App: Component = () => {
+const Home: Component = () => {
   return (
   <>
    <h1>SOSINO</h1>
@@ -10,4 +10,4 @@ const App: Component = () => {
   );
 };
 
-export default App;
+export default Home;
