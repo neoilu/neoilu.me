@@ -6,7 +6,7 @@ const Home: Component = () => {
   <>
    <h1>SOSINO</h1>
    <p>для леши</p>
-   <nav>
+   <nav style="display: flex">
     <a href="/">Home</a>
     <a href="/Games">Games</a>
    </nav>
