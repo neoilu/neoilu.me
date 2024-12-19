@@ -8,8 +8,8 @@ const Home: Component = () => {
    <p>для леши</p>
    <nav>
     <ul>
-        <li><a href="/"></a></li>
-        <li><a href="/Games"></a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/Games">Games</a></li>
     </ul>
   </nav>
   </>

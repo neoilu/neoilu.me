@@ -7,8 +7,8 @@ const Games: Component = () => {
   <p>ну тут игры будут</p>
   <nav>
     <ul>
-        <li><a href="/"></a></li>
-        <li><a href="/Games"></a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/Games">Games</a></li>
     </ul>
   </nav>
   </>
