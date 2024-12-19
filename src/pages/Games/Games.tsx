@@ -5,7 +5,7 @@ const Games: Component = () => {
   return (
   <>
   <p>ну тут игры будут</p>
-  <nav style="display: flex">
+  <nav>
     <a href="/">Home</a>
     <a href="/Games">Games</a>
    </nav>
