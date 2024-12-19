@@ -4,8 +4,8 @@ import styles from './App.module.css';
 const App: Component = () => {
   return (
   <>
-   <h1>Этоя</h1>
-   <p>комит3</p>
+   <h1>SOSINO</h1>
+   <p>для леши</p>
   </>
   );
 };
