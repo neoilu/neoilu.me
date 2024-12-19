@@ -6,6 +6,10 @@ const Home: Component = () => {
   <>
    <h1>SOSINO</h1>
    <p>для леши</p>
+   <nav>
+    <a href="/">Home</a>
+    <a href="/Games">Games</a>
+   </nav>
   </>
   );
 };
