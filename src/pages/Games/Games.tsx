@@ -6,7 +6,7 @@ const Games: Component = () => {
   <>
   <p>ну тут игры будут</p>
   <nav>
-    <a href="/">Home</a>
+    <a href="/">Home </a>
     <a href="/Games">Games</a>
    </nav>
   </>
