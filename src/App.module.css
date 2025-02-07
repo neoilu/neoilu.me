@@ -1,0 +1,24 @@
+.tgbutton {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 0;
+    border: 0;
+    position: relative;
+}
+
+.tgsvg {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    top: 0px;
+    left: 0;
+}
+
+.tgcolor {
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    left: -10px;
+}
