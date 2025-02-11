@@ -1,24 +1,31 @@
-.tgbutton {
+.button{
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    padding: 0;
-    border: 0;
-    position: relative;
+    background-color: #fff;
 }
 
-.tgsvg {
+
+.namediv{
+    width: 100%;
+    height: 100%;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    z-index: 3;
-    top: 0px;
-    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 50px;
+    color: #fff;
+    font-family: "SegoeUI", serif;
 }
 
-.tgcolor {
-    position: absolute;
-    z-index: 1;
-    top: -10px;
-    left: -10px;
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Semibold"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf) format("truetype");
+    font-weight: 600;
 }

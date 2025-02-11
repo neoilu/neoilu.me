@@ -1,15 +1,17 @@
 import type { Component } from 'solid-js';
 import styles from './App.module.css';
-import tgsvg from "./Vector.svg"
-import tgcolor from "./Rectangle 7.png"
+import TelegramButton from './components/buttons/TelegramButton/TelegramButton';
+
 
 const App: Component = () => {
   return (
-    <>
-    <button class={styles.tgbutton}>
-      <img src={tgsvg} class={styles.tgsvg}/>
-      <img src={tgcolor} class={styles.tgcolor}/>
-    </button>
+    <> 
+      <div class={styles.namediv}>
+        <h1>
+          Igor *****
+        </h1>
+      </div>
+      <TelegramButton />
     </>
   );
 };
